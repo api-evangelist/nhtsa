@@ -1,0 +1,32 @@
+aid: nhtsa
+name: NHTSA
+description: "NHTSA Product Information Catalog and Vehicle Listing"
+url: https://vpic.nhtsa.dot.gov/api/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Vehicle"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Vehicle
+  - Public APIs
+apis:
+  - name: NHTSA
+    description: "NHTSA Product Information Catalog and Vehicle Listing"
+    humanURL: https://vpic.nhtsa.dot.gov/api/
+    baseURL: https://vpic.nhtsa.dot.gov/api/
+    tags:
+      - Vehicle
+    properties:
+      - type: Documentation
+        url: https://vpic.nhtsa.dot.gov/api/
+common:
+  - type: Website
+    url: https://vpic.nhtsa.dot.gov/api/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
