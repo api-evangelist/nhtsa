@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://vpic.nhtsa.dot.gov/api/
 common:
+  - type: DomainSecurity
+    url: security/nhtsa-domain-security.yml
   - type: Website
     url: https://vpic.nhtsa.dot.gov/api/
   - type: PublicAPIsListing
