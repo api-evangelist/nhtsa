@@ -33,6 +33,9 @@ x-category: "Vehicle"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
+  - Vehicles
+  - Public APIs
+tags_raw:
   - Vehicle
   - Public APIs
 apis:
@@ -41,6 +44,8 @@ apis:
     humanURL: https://vpic.nhtsa.dot.gov/api/
     baseURL: https://vpic.nhtsa.dot.gov/api/
     tags:
+      - Vehicles
+    tags_raw:
       - Vehicle
     properties:
       - type: Documentation
